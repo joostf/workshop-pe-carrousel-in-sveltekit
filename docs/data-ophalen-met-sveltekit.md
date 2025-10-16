@@ -67,6 +67,6 @@ Kopieer onderstaande code naar
 #### 7. Extra opdracht: haal data op uit een REST API naar keuze
 Je kan de super coole FDND features in de Carrousel tonen, maar nog toffer is om de inhoud naar je eigen hand te zetten 🚀
 
-Kies zelf een REST API uit: https://github.com/public-api-lists/public-api-lists, en verwerk de data in de Carrousel.
+Kies zelf een REST API uit: https://github.com/public-api-lists/public-api-lists, en verwerk de data in de Carrousel. Hiervoor zal je ook de HTML moeten aanpassen.
 
 
