@@ -1,5 +1,5 @@
 > _Fork_ deze leertaak en ga aan de slag.
-> De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/url-naar-online-instructions)
+> De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/workshop-pe-carrousel-in-sveltekit/blob/main/docs/INSTRUCTIONS.md)
 
 
 # PE Carrousel in SvelteKit
