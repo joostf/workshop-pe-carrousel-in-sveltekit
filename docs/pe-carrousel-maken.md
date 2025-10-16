@@ -17,7 +17,7 @@ Kopieer in je code editor de CSS uit [voorbeeld.css](voorbeeld.css) in een `<sty
 ```
 #### 1. Uncomment @layers
 
-Alle voorbeeld css staat in comments. Haal per @layer van boven naar beneden de comments weg en bekijk telkens in de browser wat er verandert aan de Carrousel.
+Alle voorbeeld CSS staat in comments. Haal per `@layer` van boven naar beneden de comments weg en bekijk telkens in de browser wat er verandert aan de Carrousel. Elke CSS layer is een extra enhancement.
 
 
 
