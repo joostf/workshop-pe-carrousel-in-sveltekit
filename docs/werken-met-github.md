@@ -21,8 +21,7 @@ Kies bij het knopje _Add_ voor  _Clone Repository..._
 
 Zoek de leertaak _[jouw github handle]/workshop-pe-carrousel-in-sveltekit_ en kies een folder op je laptop bij _Local Path_
 
-<img width="497" height="500" alt="clone 2" src="https://github.com/user-attachments/assets/4697219e-f414-4cf6-a3c3-c07587bff458" />
-
+<img width="493" height="495" alt="clone 2" src="https://github.com/user-attachments/assets/5a9434d3-412a-4110-96fa-7ef8a86ac91e" />
 
 #### 3. Open het project in een Code Editor naar keuze
 Klik op de knop _Open in External Editor_
