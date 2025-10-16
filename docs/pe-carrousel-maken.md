@@ -40,9 +40,7 @@ Voeg onderstaande code toe aan het `<script> ... </script>` element bovenaan het
 ```
 
 #### 4. Kopieer JavaScript
-Kopieer in je code editor de JavaScript uit [voorbeeld.js](voorbeeld.js) in de `onMount` functie. 
-
-Bekijk nu nog eens in de **Firefox** browser de Carrousel. Zijn er nu wel vorige en volgende buttons? En werken ze?
+Kopieer in je code editor de JavaScript uit [voorbeeld.js](voorbeeld.js) in de `onMount` functie. Bekijk nu nog eens in de **Firefox** browser de Carrousel. Zijn er nu wel vorige en volgende buttons? En werken ze?
 
 
 
