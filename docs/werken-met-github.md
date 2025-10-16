@@ -26,7 +26,14 @@ Zoek de leertaak _fdnd-task/workshop-pe-carrousel-in-sveltekit_ en kies een fold
 #### 3. Open het project in een Code Editor naar keuze
 Klik op de knop _Open in External Editor_
 
-#### 4. Commit & push wijzigingen via De GitHub Desktop app
+<img width="1097" height="902" alt="Scherm­afbeelding 2025-10-14 om 11 52 19" src="https://github.com/user-attachments/assets/b01850d7-88a1-4963-8f30-c38d2cc59656" />
+
+Dat ziet er dan zo uit in je code editor
+
+<img width="1034" height="784" alt="editor" src="https://github.com/user-attachments/assets/7ad47dc6-3788-494e-9486-d3713d96deeb" />
+
+
+#### 4. Commit & push wijzigingen via de GitHub Desktop app
 
 
 
