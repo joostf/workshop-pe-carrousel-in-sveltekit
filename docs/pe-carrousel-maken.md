@@ -30,7 +30,8 @@ Voeg onderstaande code toe aan het `<script> ... </script>` element bovenaan het
   let { data } = $props();
 
   onMount(() => {
-    // Kopieer hier de voorbeeld JavaScript
+    // Plak de gekopieerde JavaScript hieronder
+    
   });
 
 </script>
