@@ -18,7 +18,7 @@ Deze workshop bestaat uit verschillende opdrachten
 - [Werken met GitHub](werken-met-github.md)
 - [Data ophalen met SvelteKit](data-ophalen-met-sveltekit.md)
 - [PE Carrousel maken](pe-carrousel-maken.md)
-- [Netlify](website-live-zetten-met-netlify.md)
+- [Website live zetten met Netlify](website-live-zetten-met-netlify.md)
 
 
 ## Definition of done
