@@ -31,10 +31,9 @@ Kopieer in je code editor de HTML uit [voorbeeld.html](voorbeeld.html) naar `> s
 #### 4. Haal JSON data op uit een REST API
 Maak een `+page.server.js` bestand aan in `> src > routes`
 
-#### 5. Haal JSON data op uit een REST API
-Kopieer onderstaande code naar `> src > routes > +page.server.js`
+En plak onderstaande code in dit bestand.
 
-```
+```javascript
 export const load = async () => {
     const endpoint = 'https://fdnd.directus.app/items/fdnd_features'
 
@@ -51,7 +50,7 @@ export const load = async () => {
 
 Kopieer onderstaande code naar `> src > routes > +page.svelte`
 
-```
+```javascript
 <script>
   let { data } = $props();
 </script>
