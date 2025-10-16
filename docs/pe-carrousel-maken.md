@@ -33,7 +33,7 @@ Voeg onderstaande code toe aan het `<script> ... </script>` element bovenaan het
     // Kopieer hier de voorbeeld JavaScript
   });
 
-</script
+</script>
 ```
 
 #### 4. Kopieer JavaScript
