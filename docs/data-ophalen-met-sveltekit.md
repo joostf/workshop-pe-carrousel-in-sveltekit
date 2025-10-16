@@ -12,6 +12,7 @@ Met behulp van SvelteKit ga je data, de content voor de carrousel, ophalen uit e
 `npx sv create`
 
 Maak deze keuzes tijden het installeren:
+- vul een . in bij 'Where would you like your project to be created?'
 - minimal barebone
 - no type checking
 - add nothing (enter)
