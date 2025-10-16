@@ -56,12 +56,27 @@ Kopieer onderstaande code naar `> src > routes > +page.svelte`
   let { data } = $props();
 </script>
 
-{#each data.features as feature}
-  <article>
-    <h2>{feature.title}</h2>
-    <blockquote>{feature.intro}</blockquote>
-  </article>
-{/each}
+<main>
+  <header>
+    <h1>Frontend Design & Development</h1>
+    <p><em>2-jarige Associate Degree aan de HvA</em></p>
+  </header>
+  
+  <div>
+    {#each data.features as feature}
+      <article>
+        <h2>{feature.title}</h2>
+        <blockquote>{feature.intro}</blockquote>
+      </article>
+    {/each}
+  </div>
+  
+
+  <footer>
+    <button type="button" hidden>← Vorige</button>    
+    <button type="button" hidden>Volgende →</button>
+  </footer>
+</main>
 ```
 
 #### 5. Extra opdracht: haal data op uit een REST API naar keuze
