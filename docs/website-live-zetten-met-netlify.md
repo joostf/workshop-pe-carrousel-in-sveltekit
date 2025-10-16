@@ -12,7 +12,7 @@ Met behulp van Netlify ga je jouw SvelteKit Carrousel live zetten
 #### 2. Maak een Netlify account aan
 ...
 
-#### 3. Voeg de repository aan Netlify
+#### 3. Voeg de repository toe aan Netlify
 ...
 
 #### 4. Deploy de website

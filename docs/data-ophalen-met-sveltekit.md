@@ -6,9 +6,10 @@ Met behulp van SvelteKit ga je data, de content voor de carrousel, ophalen uit e
 
 ### Aanpak
 
-#### 1. Installeer SvelteKit
+#### 1. Installeer SvelteKit in de folder van de door jou geforkte repository
 
-**Maak een SveletKit instantie aan**  
+**Maak een SvelteKit instantie aan:**  
+Open de folder  in de terminal en voer onderstaande commando uit.  
 `npx sv create`
 
 Maak deze keuzes tijden het installeren:
@@ -18,22 +19,22 @@ Maak deze keuzes tijden het installeren:
 - add nothing (enter)
 - npm
 
-**Installeer npm packages**  
+**Installeer npm packages:**  
 `npm install`
 
-**Open de web aplicatie**  
+**Open de web aplicatie:**  
 `npm run dev -— -—open`
 
 #### 2. Kopieer HTML
 Kopieer in je code editor de HTML uit [voorbeeld.html](voorbeeld.html) naar `> src > routes > +page.svelte`
+Bekijk de HTML in de browser.
 
-#### 4. Haal JSON data op uit een REST API
+#### 3. Haal JSON data op uit een REST API
 Maak een `+page.server.js` bestand aan in `> src > routes`
 
-#### 5. Haal JSON data op uit een REST API
-Kopieer onderstaande code naar `> src > routes > +page.server.js`
+En plak onderstaande code in dit bestand.
 
-```
+```javascript
 export const load = async () => {
     const endpoint = 'https://fdnd.directus.app/items/fdnd_features'
 
@@ -46,26 +47,45 @@ export const load = async () => {
 }
 ```
 
-#### 6. Render de opgehaalde data in HTML
+#### 4. Render de opgehaalde data in HTML
 
 Kopieer onderstaande code naar `> src > routes > +page.svelte`
 
-```
+```javascript
 <script>
   let { data } = $props();
 </script>
 
-{#each data.features as feature}
-  <article>
-    <h2>{feature.title}</h2>
-    <blockquote>{feature.intro}</blockquote>
-  </article>
-{/each}
+<main>
+  <header>
+    <h1>Frontend Design & Development</h1>
+    <p><em>2-jarige Associate Degree aan de HvA</em></p>
+  </header>
+  
+  <div>
+    {#each data.features as feature}
+      <article>
+        <h2>{feature.title}</h2>
+        <blockquote>{feature.intro}</blockquote>
+      </article>
+    {/each}
+  </div>
+  
+
+  <footer>
+    <button type="button" hidden>← Vorige</button>    
+    <button type="button" hidden>Volgende →</button>
+  </footer>
+</main>
 ```
 
-#### 7. Extra opdracht: haal data op uit een REST API naar keuze
+#### 5. Extra opdracht: haal data op uit een REST API naar keuze
 Je kan de super coole FDND features in de Carrousel tonen, maar nog toffer is om de inhoud naar je eigen hand te zetten 🚀
 
 Kies zelf een REST API uit: https://github.com/public-api-lists/public-api-lists, en verwerk de data in de Carrousel. Hiervoor zal je ook de HTML moeten aanpassen.
+
+#### 8. Commit & push wijzigingen via de GitHub Desktop app
+
+
 
 
