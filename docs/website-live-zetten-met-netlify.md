@@ -28,7 +28,7 @@ Kies voor GitHub:
 <img width="978" height="403" alt="netlify-github" src="https://github.com/user-attachments/assets/3652acd2-89e2-498c-bc37-5e4a6dbd4444" />
 
 
-
+En zoek de repository _workshop-pe-carrousel-sveltekit_
 
 
 
