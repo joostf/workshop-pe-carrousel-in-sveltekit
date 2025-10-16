@@ -6,7 +6,7 @@ Met behulp van SvelteKit ga je data, de content voor de carrousel, ophalen uit e
 
 ### Aanpak
 
-#### 1. Installeer SvelteKit in de door folder van de door jou geforkte repository
+#### 1. Installeer SvelteKit in de folder van de door jou geforkte repository
 
 **Maak een SveletKit instantie aan**  
 Open de folder  in de terminal en voer onderstaande commando uit.
