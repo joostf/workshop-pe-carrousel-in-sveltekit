@@ -1,5 +1,5 @@
 
-# Onboarding - PE Carrousel in SvelteKit
+# Voorlichting - PE Carrousel in SvelteKit
 
 Ontwerp en maak een Carrousel in SvelteKit
 
