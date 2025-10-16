@@ -8,7 +8,7 @@ Met behulp van SvelteKit ga je data, de content voor de carrousel, ophalen uit e
 
 #### 1. Installeer SvelteKit
 
-**Maak een SveletKit instantie aan**
+**Maak een SveletKit instantie aan**  
 `npx sv create`
 
 Maak deze keuzes tijden het installeren:
@@ -17,10 +17,10 @@ Maak deze keuzes tijden het installeren:
 - add nothing (enter)
 - npm
 
-**Installeer npm packages**
+**Installeer npm packages**  
 `npm install`
 
-**Open de web aplicatie**
+**Open de web aplicatie**  
 `npm run dev -— -—open`
 
 #### 2. Kopieer HTML
