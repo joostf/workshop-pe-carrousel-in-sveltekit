@@ -48,9 +48,7 @@ export const load = async () => {
 
 #### 6. Render de opgehaalde data in HTML
 
-Kopieer onderstaande code naar 
-
-
+Kopieer onderstaande code naar `> src > routes > +page.svelte`
 
 ```
 <script>
