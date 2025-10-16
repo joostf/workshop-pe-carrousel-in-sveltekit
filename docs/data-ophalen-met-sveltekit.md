@@ -24,7 +24,7 @@ Maak deze keuzes tijden het installeren:
 `npm run dev -— -—open`
 
 #### 2. Kopieer HTML
-Kopieer in je code editor de voorbeeld HTML uit voorbeeld.md naar `> src > routes > +page.svelte`
+Kopieer in je code editor de HTML uit [voorbeeld.html](voorbeeld.html) naar `> src > routes > +page.svelte`
 
 #### 4. Haal JSON data op uit een REST API
 Maak een `+page.server.js` bestand aan in `> src > routes`
