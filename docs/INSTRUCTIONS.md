@@ -1,5 +1,5 @@
 
-# Workshop PE Carrousel in SvelteKit
+# Workshop - PE Carrousel in SvelteKit
 
 Ontwerp en maak een Carrousel in SvelteKit volgens het principe van Progressive Enhancement.
 
