@@ -6,6 +6,9 @@ Met behulp van GitHub ga je een eigen versie maken van de PE Carrousel in Svelte
 
 ### Aanpak
 
+#### 0. GitHub account aanmaken
+Maak een github account aan als je dat niet al hebt.
+
 #### 1. Fork deze leertaak
 ...
 
