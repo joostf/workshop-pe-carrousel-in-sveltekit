@@ -9,7 +9,7 @@ Met behulp van SvelteKit ga je data, de content voor de carrousel, ophalen uit e
 #### 1. Installeer SvelteKit in de folder van de door jou geforkte repository
 
 **Maak een SvelteKit instantie aan:**  
-Open de folder  in de terminal en voer onderstaande commando uit.
+Open de folder  in de terminal en voer onderstaande commando uit. 
 `npx sv create`
 
 Maak deze keuzes tijden het installeren:
