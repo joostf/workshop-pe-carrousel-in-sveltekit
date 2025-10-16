@@ -18,7 +18,8 @@ Kies bij het knopje _Add_ voor  _Clone Repository..._
 
 <img width="478" height="216" alt="clone 1" src="https://github.com/user-attachments/assets/29eaf8df-c2f0-4cc2-8963-3b6546a2cb26" />
 
-Zoek de leertaak _fdnd-task/workshop-pe-carrousel-in-sveltekit_ en kies een folder op je laptop bij _Local Path_
+
+Zoek de leertaak _[jouw github handle]/workshop-pe-carrousel-in-sveltekit_ en kies een folder op je laptop bij _Local Path_
 
 <img width="497" height="500" alt="clone 2" src="https://github.com/user-attachments/assets/4697219e-f414-4cf6-a3c3-c07587bff458" />
 
