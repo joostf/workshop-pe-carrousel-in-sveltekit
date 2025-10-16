@@ -33,8 +33,6 @@ Dat ziet er dan zo uit in je code editor
 <img width="1034" height="784" alt="editor" src="https://github.com/user-attachments/assets/7ad47dc6-3788-494e-9486-d3713d96deeb" />
 
 
-#### 4. Commit & push wijzigingen via de GitHub Desktop app
-
 
 
 
