@@ -10,7 +10,7 @@
 <!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
-In deze workshop bouw je een Carrousel in SvelteKit. De carrousel wordt opgebouwd volgens het Progressive Enhancement principe
+In deze workshop bouw je een Carrousel in SvelteKit. De carrousel wordt opgebouwd volgens het Progressive Enhancement principe.
 
 
 
