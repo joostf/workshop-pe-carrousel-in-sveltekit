@@ -1,8 +1,8 @@
 # Workshop - PE Carrousel in SvelteKit
 
-## Setup SvelteKit
+## Data ophalen met SvelteKit
 
-Met behulp van SvelteKit ga je data, de content voor de carrousel, ophalen uit een REST API en renderen naar HTML.
+Met behulp van SvelteKit ga je voor de carrousel data ophalen uit een REST API en renderen naar HTML.
 
 ### Aanpak
 
