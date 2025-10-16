@@ -16,10 +16,12 @@ Kopieer in je code editor de CSS uit [voorbeeld.css](voorbeeld.css) in een `<sty
 </style
 ```
 #### 2. Uncomment @layers
-Alle voorbeeld CSS staat in comments. Haal per `@layer` van boven naar beneden de comments weg en bekijk telkens in de browser wat er verandert aan de Carrousel. Elke CSS layer is een extra enhancement.
+Alle voorbeeld CSS staat in comments. Haal per `@layer` van boven naar beneden de comments weg en bekijk telkens in de **Chrome** browser wat er verandert aan de Carrousel. Elke CSS layer is een extra enhancement. Bekijk het eindresultaat ook in de **Firefox browser*. Werken daar ook alle enhancements?
 
 #### 3. Voeg onMount functie toe
-Om in een Svelte component toegang te kunnen krijgen tot de `DOM` heb je de `onMount` functie nodig.
+Voor browsers die de `::scroll-button(*)` selector in CSS nog niet ondersteunen, kunnen we de HTML `button` elementen interactief maken met 'JavaScript'
+
+Om in een Svelte component toegang te kunnen krijgen tot de `DOM` en dus tot deze HTML `button` elementen,  heb je de `onMount` functie nodig.
 
 Voeg onderstaande code toe aan het `<script> ... </script>` element bovenaan het  `> src > routes > +page.svelte` component.
 
@@ -38,7 +40,8 @@ Voeg onderstaande code toe aan het `<script> ... </script>` element bovenaan het
 ```
 
 #### 4. Kopieer JavaScript
-Kopieer in je code editor de JavaScript uit [voorbeeld.js](voorbeeld.js) in de `onMount` functie.
+Kopieer in je code editor de JavaScript uit [voorbeeld.js](voorbeeld.js) in de `onMount` functie. 
+Bekijk nu nog eens in de **Firefox** browser de Carrousel. IJn er nu wel vorige en volgende buttons? En werken ze?
 
 
 
