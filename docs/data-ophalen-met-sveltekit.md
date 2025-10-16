@@ -49,7 +49,13 @@ export const load = async () => {
 
 Kopieer onderstaande code naar 
 
+
+
 ```
+<script>
+  let { data } = $props();
+</script>
+
 {#each data.features as feature}
   <article>
     <h2>{feature.title}</h2>
