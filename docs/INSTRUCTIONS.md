@@ -16,10 +16,10 @@ Deze leertaak wordt behandeld in sprint 0
 
 Er worden verschillende workshops aangeboden:
 
-- [GitHub](github.md)
-- [PE Carrousel](pe-carrousel.md)
-- [Sveltekit](sveltekit.md)
-- [Netlify](netlify.md)
+- [Werken met GitHub](werken-met-github.md)
+- [Data ophalen met SvelteKit](data-ophalen-met-sveltekit.md)
+- [PE Carrousel maken](pe-carrousel-maken.md)
+- [Netlify](website-live-zetten-met-netlify.md)
 
 
 ## Definition of done
