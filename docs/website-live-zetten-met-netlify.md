@@ -30,10 +30,18 @@ Kies voor GitHub:
 
 En zoek de repository _workshop-pe-carrousel-sveltekit_
 
+<img width="772" height="406" alt="netlify-search-repo" src="https://github.com/user-attachments/assets/e3d407fb-76f5-47bc-8bb7-082431605574" />
 
 
 #### 4. Deploy de website
-...
+Vul bij _projectname_ in: _carrousel-[jouw naam]_ en klik op de de _deploy_ button
+
 
 #### 5 Voeg de Netlify URL toe aan de `About` sectie van repository
-...
+
+Klik ob het tandwieltje in de About section van de GitHub repo _workshop-pe-carrousel-in-sveltekit_:  
+<img width="354" height="323" alt="gh-edit-about" src="https://github.com/user-attachments/assets/6df2a554-4167-42df-bca4-d7ac2a83305a" />
+
+Vul de Netlify url in bij het _Website_ veld:  
+<img width="701" height="539" alt="gh -about" src="https://github.com/user-attachments/assets/a6256f7d-1a61-4ebc-bc8f-be903cbd2d8c" />
+
