@@ -1,4 +1,4 @@
-# Voorlichting - PE Carrousel in SvelteKit
+# Workshop - PE Carrousel in SvelteKit
 
 ## Werken met GitHub
 
