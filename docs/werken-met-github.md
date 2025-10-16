@@ -26,7 +26,7 @@ Zoek de leertaak _fdnd-task/workshop-pe-carrousel-in-sveltekit_ en kies een fold
 #### 3. Open het project in een Code Editor naar keuze
 Klik op de knop _Open in External Editor_
 
-<img width="1097" height="902" alt="Scherm­afbeelding 2025-10-14 om 11 52 19" src="https://github.com/user-attachments/assets/b01850d7-88a1-4963-8f30-c38d2cc59656" />
+<img width="1072" height="772" alt="external editor" src="https://github.com/user-attachments/assets/d23fa8e9-2bca-4733-8d11-254d4fe37cf0" />
 
 Dat ziet er dan zo uit in je code editor
 
