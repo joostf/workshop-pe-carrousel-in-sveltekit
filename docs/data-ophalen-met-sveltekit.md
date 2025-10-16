@@ -1,4 +1,4 @@
-# Onboarding - PE Carrousel in SvelteKit
+# Voorlichting - PE Carrousel in SvelteKit
 
 ## Setup SvelteKit
 
