@@ -5,6 +5,8 @@
 Met behulp van SvelteKit ga je voor de carrousel data ophalen uit een REST API en renderen naar HTML.
 
 ### Aanpak
+#### 0. Installeer Node.js
+Installeer Node.js als je dat al niet hebt gedaan.
 
 #### 1. Installeer SvelteKit in de folder van de door jou geforkte repository
 
