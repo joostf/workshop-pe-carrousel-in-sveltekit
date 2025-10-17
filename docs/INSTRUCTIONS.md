@@ -10,10 +10,17 @@ Dit is een opdracht die je individueel uitvoert.
 -->
 
 ## Doel van deze opdracht
+
+<!-- 
 Je leert hoe we bij FDND een Carrousel ontwerpen en maken met behulp van het framework SvelteKit.
+-->
+Het doel van deze workshop is ervaren hoe we bij FDND werken. 
 
 ## Werkwijze
-Deze workshop bestaat uit verschillende opdrachten
+Deze workshop bestaat uit verschillende opdrachten. 
+Je begint met het klaarzetten van het project en SvelteKit. Daarna bouwen een carpusel en ga je je project live zetten.
+
+We volgen stap voor stap de opdrachten:
 
 - [Werken met GitHub](werken-met-github.md)
 - [Data ophalen met SvelteKit](data-ophalen-met-sveltekit.md)
