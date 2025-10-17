@@ -18,7 +18,8 @@ Het doel van deze workshop is ervaren hoe we bij FDND werken.
 
 ## Werkwijze
 Deze workshop bestaat uit verschillende opdrachten. 
-Je begint met het klaarzetten van het project en SvelteKit. Daarna bouwen een carousel en ga je je project live zetten.
+Je begint met het klaarzetten van het project en SvelteKit. 
+Daarna maak je een carrousel en ga je je project live zetten.
 
 We volgen stap voor stap de opdrachten:
 
