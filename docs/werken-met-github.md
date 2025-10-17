@@ -2,7 +2,7 @@
 
 ## Werken met GitHub
 
-Met behulp van GitHub ga je een eigen versie maken van de PE Carrousel in SvelteKit
+Met behulp van GitHub ga je een eigen versie maken van de Carrousel in SvelteKit
 
 ### Aanpak
 
