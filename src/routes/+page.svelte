@@ -4,7 +4,10 @@
   let { data } = $props();
   let carrousel;
 
-  onMount(async () => {  
+  onMount(() => {
+    
+    if ((CSS.supports("selector(::scroll-button())"))) return
+
     const buttons = document.querySelectorAll('footer button');
     const snappedSound = new Audio('https://assets.codepen.io/2585/snap.mp3');
 
