@@ -1,39 +1,37 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount } from "svelte"
 
-  let { data } = $props();
-  let carrousel;
+  let { data } = $props()
+  let carrousel
 
   onMount(() => {
     
     if ((CSS.supports("selector(::scroll-button())"))) return
 
-    const buttons = document.querySelectorAll('footer button');
-    const snappedSound = new Audio('https://assets.codepen.io/2585/snap.mp3');
+    const buttons = document.querySelectorAll('footer button')
+    const snappedSound = new Audio('https://assets.codepen.io/2585/snap.mp3')
 
     // Add click handlers for both buttons
     buttons.forEach((button, index) => {
-      const direction = index === 0 ? -1 : 1;
+      const direction = index === 0 ? -1 : 1
 
       // Show buttons
       button.hidden = false
 
       button.addEventListener('click', function(){
-        console.log(carrousel.clientWidth)
         carrousel.scrollBy({
           left: direction * carrousel.clientWidth,
           behavior: 'smooth'
         });
-        snappedSound.play();
+        snappedSound.play()
       });
     });
 
     // Play sound when snapping occurs
     carrousel.addEventListener('scrollsnapchange', () => {
-      snappedSound.play();
-    });
-    
-  });
+      snappedSound.play()
+    })
+  })
 
 </script>
 
@@ -60,12 +58,11 @@
 </main>
 
 <style>
-/* Plak de gekopieerde CSS hieronder*/
-/* The Carrousel is based on the Progressive Enhancement principle, build in seperate layers, each layer is an extra enhancement. */
+/* De carrousel is opgebouwd volgens het principe van progressive enhancement.Het is gestructureerd in afzonderlijke cascading layers, waarbij elke laag een extra enhancement toevoegt.
+*/
 @layer generic, overflow, snap, scroll-buttons, scroll-animation;
 
 /* 1. Generic styling */
-
 @layer generic {
   main {
     --purple: #A675F5;
@@ -103,13 +100,6 @@
     outline: 3px solid var(--blue);
     outline-offset: 3px;
   }
-
-  a {
-    color: inherit;
-    &:hover, &:focus {
-      text-decoration: none;
-    }
-  }
   
   article {
     position: relative;
@@ -140,17 +130,19 @@
       font-style: italic;
       font-size: calc(3rem + .5vw);
     }
+
+    &:nth-of-type(3n + 1) {
+      --color: var(--purple);
+    }
+    &:nth-of-type(3n + 2) {
+      --color: var(--yellow);
+    }
+    &:nth-of-type(3n + 3) {
+      --color: var(--green);
+    }
   }
   
-  article:nth-of-type(3n + 1) {
-    --color: var(--purple);
-  }
-  article:nth-of-type(3n + 2) {
-    --color: var(--yellow);
-  }
-  article:nth-of-type(3n + 3) {
-    --color: var(--green);
-  }
+  
   
   footer {
     position:relative;
@@ -182,9 +174,7 @@
   }
 }
 
-
 /* 2. CSS Overflow */
-
 @layer overflow {
   div {
     display: flex;
@@ -192,9 +182,7 @@
   }
 }
 
-
 /* 3. CSS Snap Points */
-
 @layer snap {
   div {
     scroll-snap-type: x mandatory;
@@ -203,9 +191,7 @@
   }
 }
 
-
 /* 4. CSS Scroll Buttons */
-
 @layer scroll-buttons {
   @supports selector(::scroll-button(*)) {
     div {
@@ -278,7 +264,6 @@
 }
 
 /* 5. CSS Scroll-Driven Animations */
-
 @layer scroll-animations {
   blockquote {
     animation: scaleIn linear both;
