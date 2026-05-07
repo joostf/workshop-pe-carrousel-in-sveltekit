@@ -2,9 +2,9 @@
 
 export const load = async () => {
   const swCharactersResponse = await fetch('https://swapi.py4e.com/api/people')
-  const swCharactersData = await swCharactersResponse.json()
+  const data = await swCharactersResponse.json()
 
   return {
-    swCharactersData
-  }
+      swCharactersData: data.data
+    }
 }

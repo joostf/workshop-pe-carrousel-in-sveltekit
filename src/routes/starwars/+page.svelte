@@ -1,5 +1,5 @@
 <script>
-const { data } = $props()
+let { data } = $props()
 
 const characters = data.swCharactersData.results
 </script>
