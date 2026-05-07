@@ -1,9 +1,10 @@
 <script>
   import { onMount } from "svelte"
 
-  let { data } = $props()
+  const { data } = $props()
   let carrousel
 
+  // component life cycle function
   onMount(() => {
     
     if ((CSS.supports("selector(::scroll-button())"))) return
@@ -58,8 +59,7 @@
 </main>
 
 <style>
-/* De carrousel is opgebouwd volgens het principe van progressive enhancement.Het is gestructureerd in afzonderlijke cascading layers, waarbij elke laag een extra enhancement toevoegt.
-*/
+/* De carrousel is opgebouwd volgens het principe van progressive enhancement. Het is gestructureerd in afzonderlijke cascading layers, waarbij elke laag een extra enhancement toevoegt. */
 @layer generic, overflow, snap, scroll-buttons, scroll-animation;
 
 /* 1. Generic styling */
@@ -70,7 +70,6 @@
     --blue-50: rgba(5, 5, 66, 0.5);
     --green: #66E5BF;
     --yellow: #FFFC86;
-    font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     display:flex;
     flex-direction:column;
@@ -280,5 +279,4 @@
     }
   }
 }
-
 </style>

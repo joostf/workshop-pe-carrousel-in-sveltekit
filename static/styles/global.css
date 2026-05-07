@@ -1,3 +1,7 @@
 body {
-  background-color: #ccffef;
+  --bg-color: #ccffef;
+  background-color: var(--bg-color);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+
 }
