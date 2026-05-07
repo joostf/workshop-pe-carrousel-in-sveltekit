@@ -1,7 +1,7 @@
 <script>
 let { data } = $props()
 
-const characters = data.swCharactersData.results
+let characters = $state(data.swCharactersData.results)
 </script>
 
 <main>
