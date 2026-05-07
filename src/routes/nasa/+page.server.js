@@ -1,4 +1,4 @@
-import { NASA_KEY } from '$env/static/private'
+
 
 export const load = async () => {
     const endpoint = `https://api.nasa.gov/planetary/apod?start_date=2026-05-01&end_date=2026-05-06&api_key=${NASA_KEY}`
